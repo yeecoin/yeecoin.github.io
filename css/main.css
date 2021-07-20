@@ -1,5 +1,11 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url("./img/a.jpg");
-  }
+    background-image: url("../img/resized_a.jpg");
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+}
