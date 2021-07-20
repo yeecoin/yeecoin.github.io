@@ -10,3 +10,8 @@ h1 {
     text-align: center;
     font-size: 10vw !important;
 }
+
+button {
+    width: 5vw;
+    height: 5vw;
+}
