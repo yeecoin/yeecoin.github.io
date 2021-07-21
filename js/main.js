@@ -1,14 +1,11 @@
 window.addEventListener("load", function() {
     var text = document.getElementById("yeecoin");
     var bool = true;
-    console.log("running...");
     setInterval(() => {
         if (bool == true) {
-            console.log("turning red");
             text.style.color = "red";
             bool = false;
         } else {
-            console.log("turning yellow");
             text.style.color = "yellow";
             bool = true;
         }
@@ -18,16 +15,20 @@ window.addEventListener("load", function() {
 window.addEventListener("load", function() {
     var text = document.getElementById("rich");
     var bool = true;
-    console.log("running...");
     setInterval(() => {
         if (bool == true) {
-            console.log("turning red");
             text.style.color = "red";
             bool = false;
         } else {
-            console.log("turning yellow");
             text.style.color = "yellow";
             bool = true;
         }
     }, 100);
 });
+
+function buyYeeCoin() {
+    var total = document.getElementById("total");
+    var value = document.getElementById("value");
+    total.textContent = Number(total.textContent) + 1;
+    value.textContent = 1 + Number(value.textContent) * (Math.random()*10);
+};
