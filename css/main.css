@@ -14,15 +14,20 @@ h1 {
 button {
     width: 10vw;
     height: 10vw;
-    font-size: 4vw !important;
 }
 
 #own {
-    margin-left: 32.5%;
-    font-size: 4vw;
+    text-align: center;
+    font-size: 10vw;
 }
 
 #worth {
-    margin-left: 42.5%;
-    font-size: 4vw;
+    text-align: center;
+    font-size: 10vw;
+}
+
+#rich {
+    bottom: 0%;
+    margin-left: 10%;
+    position: fixed;
 }
