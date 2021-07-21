@@ -3,7 +3,6 @@ body {
     width: 100%;
     background-image: url("../img/resized_a.jpg");
     background-size: cover;
-
 }
 
 h1 {
@@ -12,22 +11,38 @@ h1 {
 }
 
 button {
-    width: 10vw;
-    height: 10vw;
+    width: 60%;
+    height: 15vw;
+    text-align: center;
+    font-size: 6vw !important;
+    margin-bottom: 50%;
+    
 }
 
 #own {
     text-align: center;
-    font-size: 10vw;
+    font-size: 6vw;
 }
 
 #worth {
     text-align: center;
-    font-size: 10vw;
+    font-size: 6vw;
 }
 
 #rich {
+    margin-top: 10%;
     bottom: 0%;
     margin-left: 10%;
     position: fixed;
+}
+
+@media only screen and (min-width: 1100px) {
+    #rich {
+        position: inherit;
+        margin-left: -5%;
+    }
+    body {
+        background-image: url("../img/a.jpg");
+        background-size: cover;
+    }
 }
