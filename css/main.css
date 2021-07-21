@@ -12,6 +12,17 @@ h1 {
 }
 
 button {
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 10vw;
+    font-size: 4vw !important;
+}
+
+#own {
+    margin-left: 32.5%;
+    font-size: 4vw;
+}
+
+#worth {
+    margin-left: 42.5%;
+    font-size: 4vw;
 }
